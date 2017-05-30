@@ -1,0 +1,342 @@
+/*
+FONTS FOR PAGE:
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/*
+COLOR BLOCKS:
+red: ff1000
+orange: ff7d00
+
+MAP BLOCKS:
+blue: #3c7ed2;
+yellowgreen: #deec46;
+hot pink: #ff7e9c;
+*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+/*	background-color: #ffffff;*/
+	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover { 
+/*	color: #ffffff;*/
+	color: #ff7d00;
+}
+
+#logoBlock {
+	background-color: #ffffff;
+	width: 600px;
+	margin-right: 100px;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+#navColorBlock {
+	color: #ff7d00;
+}
+
+#mainSpace{
+	max-width: 960px;
+	margin: auto;
+    /*width: 100%;*/
+/*    border-style: solid;
+    border-top: thick #ff0000;*/
+    
+}
+
+div#soundWave {
+	background-image: url(../images/photo_lineSpray_angle_1200.jpg);
+    background-repeat: no-repeat;
+    width:1200px;
+    height:600px;
+    transition:2s;
+    -webkit-transition:2s;
+    -moz-transition:2s;
+    position:absolute;
+    right:calc(100% - 175px);
+}
+div#soundWave:hover {
+  right:100px;
+}
+
+h2.home {
+	margin-top: 75px;
+	margin-left: 1000px;
+	/* Safari */
+	-webkit-transform: rotate(-18deg);
+	/* Firefox */
+	-moz-transform: rotate(-18deg);
+	/* IE */
+	-ms-transform: rotate(-18deg);
+	/* Opera */
+	-o-transform: rotate(-18deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+h2.about {
+	margin-top: 85px;
+	margin-left: 980px;
+	/* Safari */
+	-webkit-transform: rotate(-10deg);
+	/* Firefox */
+	-moz-transform: rotate(-10deg);
+	/* IE */
+	-ms-transform: rotate(-10deg);
+	/* Opera */
+	-o-transform: rotate(-10deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+}
+
+h2.projects {
+	margin-top: 65px;
+	margin-left: 1000px;	
+}
+
+/*h3 {
+	font-size: 20px;
+}
+*/
+#contact {
+	width: auto;
+	height: 350px;
+	margin-top: 600px;
+}
+
+#contactMe {
+}
+
+#connectMe {
+	margin-right: 20px;
+}
+
+/* FOOTER */
+
+#myFooterMain {
+	margin-top: 600px;
+	width: auto;
+	/*height: 300px;*/
+	align-self: center;
+	background-image: url(../images/polkaDots.jpg);
+}
+
+footer {
+	margin-top: 20px;
+	width: auto;
+	/*height: 300px;*/
+	align-self: center;
+	background-image: url(../images/polkaDots.jpg);
+}
+
+#myInfo {
+	margin-top: 65px;
+	margin-left: 100px;
+	border-radius: 25px;
+    padding: 20px; 
+    width: 400px;
+    height: 260px;
+}
+
+.logo {
+	vertical-align: center;
+	margin-top: 50px;
+	margin-left: 100px;/*
+	margin-right: 10px;*/
+	border-radius: 25px;
+    padding: 20px; 
+}
+
+h3.panel {
+	font-size: 18px;
+}
+
+h2.copyright {
+	font-size: 35px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+/* ABOUT ME PAGE */
+
+#panelMap {
+	width: 1150px;
+	margin-top: 50px;
+}
+
+#usMap {
+	margin-top: 50px;
+}
+
+#ukMap {
+	margin-top: 50px;
+}
+
+#bio {
+	width: 960px;
+}
+
+#vaModBody {
+	background-color: #ff7d00;
+}
+
+#seattleModBody {
+	background-color: #3c7ed2;
+}
+
+#caModBody {
+	background-color: #deec46;
+}
+
+#ncModBody {
+	background-color: #ff1000;
+}
+
+#ukModBody {
+	background-color: #ff7e9c;
+}
+
+#bioText {
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+#funStuff{
+	width: 960px;
+/*	margin-top: 10px;*/
+}
+
+#bioPanel {
+	
+}
+
+.panel {
+    border: 0;
+}
+
+
+
+
+
+/*#vaImage {
+	background-image: url(../images/VA_291x600.jpg);
+	background-repeat: no-repeat;
+}*/
+
+/*#vaText, #waText {
+	margin-top: 10px;
+	margin-left: 600px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+    padding: 20px; 
+    width: 400px;
+    height: 260px;
+	
+}
+
+#vaText {
+	background-color: #ff7d00;
+	
+}
+
+#waText {
+	background-color: #3c7ed2;
+}
+
+#waImage {
+	background-image: url(../images/WA_291x430.jpg);
+	background-repeat: no-repeat;
+	
+}*/
+
+/* ABOUT ALT */
+
+#stateImages {
+	margin-top: 50px;
+}
+
+#virginia {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#washington {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#california {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#london {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#northCarolina {
+/*	margin-top: 75px;
+	margin-left: 100px;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+#miniBio {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/* PROJECTS PAGE */
+
+#projectTable {
+	margin-top: 10px;
+	margin-left: 90px;
+	margin-right: 50px;
+	width: 960px;
+}
+
+table {
+	border-collapse:collapse; 
+	table-layout:fixed; 
+	width:960px;
+	/*margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;*/
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+table td {
+/*	border:solid 1px #000000;*/
+	width:100px; 
+	word-wrap:break-word;
+	text-align: center;
+	padding: 40px;
+}
+
+
+
+
+
+
+
+

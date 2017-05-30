@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Me</title>
+
+	<!--Link Bootstrap's JavaScript to jQuery-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<!-- Compiled and minified CSS -->
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"> -->
+
+  <!-- Compiled and minified JavaScript -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script> -->
+          
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="https://use.fontawesome.com/c606ab7025.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
+
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="header" id="navArea">
+	<div class="row">
+
+		<div class="col-xs-6" id="logoBlock">
+			<a href="main.html"><img src="./assets/images/colorBlockArrow_325x400.jpg" alt="MELISSA MUNSON" height="325" width="400"></a>
+		</div>
+		<div class="col-xs-4" id="navColorBlock">
+			<nav class="nav nav-pills nav-stacked">
+			  <a class="nav-link danger" href="main.html"><h4 align="left">HOME</h4></a>
+			  <a class="nav-link" href="about.html"><h4 align="left">ABOUT ME</h4></a>
+			  <a class="nav-link" href="projects.html"><h4 align="left">PROJECTS</h4></a>
+			</nav>
+
+		</div>
+		
+	</div>
+</div>
+
+<div class="container" id="bioMap">
+
+
+	<div class="row" id="maps">
+
+		<div class="panel panel-default" id="panelMap">
+			<h1 align="center">GEOGRAPHICALLY ABOUT ME:</h1>
+				<div class="panel-body">
+
+
+					<div class="col-xs-6" id="usMap" align="center">
+						<img src="./assets/images/USmapCOLOR_463x700.jpg" alt="USA MAP" height="350" width="auto" align="center" usemap="#usmap">
+
+						<map name="usmap">
+						  <area class="va" shape="rect" coords="400,100,500,150" alt="Virginia" data-toggle="modal" data-target="#vaModal">
+						  <area class="wa" shape="rect" coords="130,10,50,50" alt="Washington" data-toggle="modal" data-target="#waModal">
+						  <area class="ca" shape="rect" coords="150,60,50,300" alt="California" data-toggle="modal" data-target="#caModal">
+						  <area class="nc" shape="rect" coords="400,200,500,150" alt="North Carolina" data-toggle="modal" data-target="#ncModal">
+						</map>
+					</div>
+
+					<!-- href="#ukImage" -->
+
+					<div class="col-xs-6" id="ukMap" align="center">
+						<img src="./assets/images/states/uk_pink_400x346.jpg" alt="UK MAP" height="250" width="auto" align="center" usemap="#ukmap">
+
+						<map name="ukmap">
+						  <area class="lon" shape="rect" coords="250,50,50,400" alt="London" data-toggle="modal" data-target="#ukModal">
+						</map>
+						
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+	<!--  VA Modal -->
+<div class="container" id="virginia">
+		<div id="vaModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModal3LabelVA" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title" id="exampleModal3LabelVA">RICHMOND, VA</h1>    
+		        </div>
+		      <div class="modal-body" id="vaModBody">
+		        <h5 align="left">Born and raised near Richmond, VA, I attended Virginia Polytechnic and State University attaining a BA.</h5>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+</div>
+
+	<!--  WA Modal -->
+<div class="container" id="washington">
+		<div id="waModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModal3LabelWA" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title" id="exampleModal3LabelWA">SEATTLE, WA</h1>    
+		        </div>
+		      <div class="modal-body" id="seattleModBody">
+		        <h4 align="left"><strong>DRI</strong></h4>
+				    <h5 align="left">October 1996-September 1999</h5>
+				    	<p><h5 align="left"><strong>Researcher</strong></h5></p>
+				    		<ul>
+								<h5 align="left">-Created simple algorithms to search databases</h5>
+								<h5 align="left">-Document advisor for environmental trial</h5>
+							</ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+</div>
+
+	<!--  WA Modal -->
+<div class="container" id="california">
+		<div id="caModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModal3LabelCA" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title" id="exampleModal3LabelCA">LOS ANGELES, CA</h1>    
+		        </div>
+		      <div class="modal-body" id="caModBody">
+		        <h4 align="left"><strong>OTX (formerly a part of iFilm.com)</strong></h4>
+				    <h5 align="left">August 2000-January 2006</h5>
+				    	<p><h5 align="left"><strong>Manager of Programming Department</strong></h5></p>
+				    		<ul>
+								<h5 align="left">-Managed a team of 6 programmers</h5>
+								<h5 align="left">-Helped create functionality, sourced ideas, and debugged for our in-house programming platform, ‘Survey Creator’</h5> 
+								<h5 align="left">-Started as an entry level programmer, programming in SPSS Quancept</h5>
+								<h5 align="left">-Helped create and define standards for OTX programming</h5>
+							</ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+</div>
+
+	<!--  NC Modal -->
+<div class="container" id="northCarolina">
+		<div id="ncModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModal3LabelNC" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title" id="exampleModal3LabelNC">RALEIGH, NC</h1>    
+		        </div>
+		      <div class="modal-body" id="ncModBody">
+		        <h4 align="left"><strong>GINGER BAKERY</strong></h4>
+				    <h5 align="left">November 2014-Present</h5>
+				    	<p><h5 align="left"><strong>Owner/Head Baker</strong></h5></p>
+				    		<ul>
+								<h5 align="left">-Bread baker and pastry chef for side business</h5>
+							</ul>
+					<h4 align="left"><strong>UNC CODING BOOTCAMP</strong></h4>
+				    <h5 align="left">November 2016-May 2017</h5>
+				    	<p><h5 align="left"><strong>Full stack Developer</strong></h5></p>
+				    		<ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+</div>
+
+	<!--  UK Modal -->
+<div class="container" id="london">
+		<div id="ukModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModal3LabelUK" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title" id="exampleModal3LabelUK">LONDON, UK</h1>    
+		        </div>
+		      <div class="modal-body" id="ukModBody">
+		        <h4 align="left"><strong>OTX UK</strong></h4>
+				    <h5 align="left">January 2006-October 2010</h5></p>
+				    	<p><h5 align="left"><strong>Senior Manager of European Operations</strong></h5></p>
+				    		<ul>
+								<h5 align="left">-Opened first European office: created business standards and guidelines, hired and trained staff</h5>
+								<h5 align="left">-Programmed quantitative / multi-media surveys and gathered data using a mixture of in-house products and SPSS software</h5> 
+								<h5 align="left">-Filmed and edited ‘virtual walks’, where products and ads for clients were placed within a scene of a city, and created qualitative video presentations from respondents’ blog and video submissions</h5>
+							</ul>
+					<p><h4 align="left"><strong>IPSOS-MORI (bought OTX)</strong></h4>
+				    <h5 align="left">October 2010-October 2014</h5></p>
+				    	<p><h5 align="left"><strong>Survey Programmer/Media Editor</strong></h5></p>
+				    		<ul>
+								<h5 align="left">-Programmed and QC’d surveys with multiple complexities on both mobile and desktop platforms using SPSS Dimensions and in-house programming platform (a mix of JavaScript, C++, C#, HTML, and Flash)</h5>
+								<h5 align="left">-Video and image editing using Adobe products: Final Cut Pro, After Effects, Photoshop</h5>
+							</ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+</div>
+
+
+<div class="container" id="funStuff">
+	
+	<div class="panel panel-default" id="bioPanel">
+		<h1 align="center">AND NOW FOR SOMETHING COMPLETELY DIFFERENT:</h1>
+		<div class="panel-body">
+				<div class="row" id="miniBio">
+					<div class="col-xs-5" id="bioText">
+						<h4 align="center"><p>When not baking (I bake for the Saturday Market at Rebus Works in Boylan Heights under the bakery name &quot;Ginger&quot;), I'm out seeing bands (I'm a punk and jazz gal at heart), hanging with my dog (Evie), reading (I love a good novel), watching movies (from high to low brow), trying the local craft beers (there are too many amazing breweries here!), and exploring North Carolina. Raleigh is a great city and has so much to see! I've been here for about 2 years, and I still feel like I've only seen a small percentage of it. If you have any places you think are a must see, please let me know! I'm still trying to find the best BBQ place in NC.</p></h4>
+						
+					</div>
+					<div class="col-xs-5" id="bioImage">
+						<img src="./assets/images/me5.jpg" alt="Melissa Munson" height="300" width="auto" align="right">
+						
+					</div>
+			
+				</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	
+
+
+
+
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-xs-5">
+
+					<div class="panel panel-default" id="myInfo">
+					  <h2 align="center">HOW TO REACH ME:</h2>
+					  
+					  <div class="panel-body">
+					    <h3 class="panel" align="center">Melissa Munson | Raleigh, NC</h3>
+					    <br>
+						    <div class="social-networks" align="center">
+	                    	<a href="mailto:melymelm@gmail.com"><img src="./assets/images/email.jpg" alt="EMAIL" height="50" width="auto"></a>
+	                        <a href="https://github.com/melymelm" target='_blank'><img src="./assets/images/github.jpg" alt="GITHUB" height="50" width="auto"></a>
+	                		<a href="https://www.linkedin.com/in/melissa-munson-49701235/" target='_blank'><img src="./assets/images/linkedin.jpg" alt="LINKEDIN" height="50" width="auto"></a>
+	                		<a href="https://stackoverflow.com/users/7001863/melymelm" target='_blank'><img src="./assets/images/stackoverflow.jpg" alt="STACKOVERFLOW" height="50" width="auto"></a>
+	                    	</div>
+
+
+					  </div>
+					</div>
+
+				</div>
+
+                <div class="col-xs-5">
+                    <h2 class="logo"><a href="/main"><img src="./assets/images/rounded_colorBlockArrowUp_249x400.jpg" alt="MELISSA MUNSON" height="249" width="400"></a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p><h4 class="copyright" align="right">© 2017 Melissa Munson</h4></p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/about.js"></script>
+	
+</body>
+</html>
